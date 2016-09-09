@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DQBaseTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //实例化window
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    //实例化底层Tabar控制器
+    DQBaseTabBarController *tabBarContoller = [[DQBaseTabBarController alloc]init];
+    
+    //设置根控制器
+    self.window.rootViewController = tabBarContoller;
+    
+    //主窗口可见
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

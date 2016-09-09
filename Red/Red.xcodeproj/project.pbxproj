@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405BF2C442BB552995675870 /* libPods-RedTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C66CF539086E077EF6CFE06 /* libPods-RedTests.a */; };
+		785895BDBE949A126B0F71A6 /* libPods-Red.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7D5CD6D606A5E4F4919A33 /* libPods-Red.a */; };
 		8436668D1D82C82E00109A10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436668C1D82C82E00109A10 /* main.m */; };
 		843666901D82C82E00109A10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436668F1D82C82E00109A10 /* AppDelegate.m */; };
 		843666961D82C82E00109A10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843666941D82C82E00109A10 /* Main.storyboard */; };
@@ -15,6 +17,12 @@
 		8436669E1D82C82E00109A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8436669C1D82C82E00109A10 /* LaunchScreen.storyboard */; };
 		843666A91D82C82E00109A10 /* RedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843666A81D82C82E00109A10 /* RedTests.m */; };
 		843666B41D82C82E00109A10 /* RedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843666B31D82C82E00109A10 /* RedUITests.m */; };
+		843666C71D82CD4100109A10 /* DQBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843666C61D82CD4100109A10 /* DQBaseTabBarController.m */; };
+		843666CA1D82CD5B00109A10 /* DQBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843666C91D82CD5B00109A10 /* DQBaseNavigationController.m */; };
+		843666CD1D82CE6A00109A10 /* DQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843666CC1D82CE6A00109A10 /* DQHomeViewController.m */; };
+		843666CF1D82CEA000109A10 /* TabBarList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843666CE1D82CEA000109A10 /* TabBarList.plist */; };
+		843666D41D82D31800109A10 /* WaterFallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 843666D31D82D31800109A10 /* WaterFallFlowLayout.m */; };
+		9DB31EB5A189B6B2CDE7BFD9 /* libPods-RedUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78332C6FDAC9F07514CD2B91 /* libPods-RedUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		056736252523DDB6AA5F3477 /* Pods-Red.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Red.release.xcconfig"; path = "Pods/Target Support Files/Pods-Red/Pods-Red.release.xcconfig"; sourceTree = "<group>"; };
+		0CB33D71758E1D8EACFEBCDE /* Pods-Red.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Red.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Red/Pods-Red.debug.xcconfig"; sourceTree = "<group>"; };
+		2F2C0ECF777446A2B2BA4D28 /* Pods-RedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedUITests/Pods-RedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C7D5CD6D606A5E4F4919A33 /* libPods-Red.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Red.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD551DF35112E87063441A1 /* Pods-RedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedUITests/Pods-RedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C66CF539086E077EF6CFE06 /* libPods-RedTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RedTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78332C6FDAC9F07514CD2B91 /* libPods-RedUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RedUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		843666881D82C82E00109A10 /* Red.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Red.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8436668C1D82C82E00109A10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8436668E1D82C82E00109A10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +65,17 @@
 		843666AF1D82C82E00109A10 /* RedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843666B31D82C82E00109A10 /* RedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedUITests.m; sourceTree = "<group>"; };
 		843666B51D82C82E00109A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843666C51D82CD4100109A10 /* DQBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQBaseTabBarController.h; sourceTree = "<group>"; };
+		843666C61D82CD4100109A10 /* DQBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQBaseTabBarController.m; sourceTree = "<group>"; };
+		843666C81D82CD5B00109A10 /* DQBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQBaseNavigationController.h; sourceTree = "<group>"; };
+		843666C91D82CD5B00109A10 /* DQBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQBaseNavigationController.m; sourceTree = "<group>"; };
+		843666CB1D82CE6A00109A10 /* DQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQHomeViewController.h; sourceTree = "<group>"; };
+		843666CC1D82CE6A00109A10 /* DQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQHomeViewController.m; sourceTree = "<group>"; };
+		843666CE1D82CEA000109A10 /* TabBarList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TabBarList.plist; sourceTree = "<group>"; };
+		843666D21D82D31800109A10 /* WaterFallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowLayout.h; sourceTree = "<group>"; };
+		843666D31D82D31800109A10 /* WaterFallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowLayout.m; sourceTree = "<group>"; };
+		C8FD4DC19C020877AEF8CE83 /* Pods-RedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedTests/Pods-RedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEB8B2A8AC1A37D154F646E6 /* Pods-RedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedTests/Pods-RedTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				785895BDBE949A126B0F71A6 /* libPods-Red.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405BF2C442BB552995675870 /* libPods-RedTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +99,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB31EB5A189B6B2CDE7BFD9 /* libPods-RedUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44E6FB3FE105796AFF0C0859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C7D5CD6D606A5E4F4919A33 /* libPods-Red.a */,
+				6C66CF539086E077EF6CFE06 /* libPods-RedTests.a */,
+				78332C6FDAC9F07514CD2B91 /* libPods-RedUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8436667F1D82C82E00109A10 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +123,8 @@
 				843666A71D82C82E00109A10 /* RedTests */,
 				843666B21D82C82E00109A10 /* RedUITests */,
 				843666891D82C82E00109A10 /* Products */,
+				AA708AD141521370460F54D3 /* Pods */,
+				44E6FB3FE105796AFF0C0859 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +141,11 @@
 		8436668A1D82C82E00109A10 /* Red */ = {
 			isa = PBXGroup;
 			children = (
+				843666D01D82D2FF00109A10 /* Lib */,
 				843666C21D82C85700109A10 /* Main */,
 				843666C11D82C85200109A10 /* Home */,
+				843666C31D82CC9200109A10 /* Navigation */,
+				843666C41D82CCCA00109A10 /* TabBar */,
 				8436668B1D82C82E00109A10 /* Supporting Files */,
 			);
 			path = Red;
@@ -140,6 +184,8 @@
 		843666C11D82C85200109A10 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				843666CB1D82CE6A00109A10 /* DQHomeViewController.h */,
+				843666CC1D82CE6A00109A10 /* DQHomeViewController.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -154,6 +200,55 @@
 			name = Main;
 			sourceTree = "<group>";
 		};
+		843666C31D82CC9200109A10 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				843666C81D82CD5B00109A10 /* DQBaseNavigationController.h */,
+				843666C91D82CD5B00109A10 /* DQBaseNavigationController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		843666C41D82CCCA00109A10 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				843666CE1D82CEA000109A10 /* TabBarList.plist */,
+				843666C51D82CD4100109A10 /* DQBaseTabBarController.h */,
+				843666C61D82CD4100109A10 /* DQBaseTabBarController.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		843666D01D82D2FF00109A10 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				843666D11D82D31800109A10 /* WaterFallLayout */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		843666D11D82D31800109A10 /* WaterFallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				843666D21D82D31800109A10 /* WaterFallFlowLayout.h */,
+				843666D31D82D31800109A10 /* WaterFallFlowLayout.m */,
+			);
+			path = WaterFallLayout;
+			sourceTree = "<group>";
+		};
+		AA708AD141521370460F54D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CB33D71758E1D8EACFEBCDE /* Pods-Red.debug.xcconfig */,
+				056736252523DDB6AA5F3477 /* Pods-Red.release.xcconfig */,
+				C8FD4DC19C020877AEF8CE83 /* Pods-RedTests.debug.xcconfig */,
+				EEB8B2A8AC1A37D154F646E6 /* Pods-RedTests.release.xcconfig */,
+				2F2C0ECF777446A2B2BA4D28 /* Pods-RedUITests.debug.xcconfig */,
+				5FD551DF35112E87063441A1 /* Pods-RedUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843666B81D82C82E00109A10 /* Build configuration list for PBXNativeTarget "Red" */;
 			buildPhases = (
+				725AF18FA64BCB6AB62FABC4 /* [CP] Check Pods Manifest.lock */,
 				843666841D82C82E00109A10 /* Sources */,
 				843666851D82C82E00109A10 /* Frameworks */,
 				843666861D82C82E00109A10 /* Resources */,
+				5C77BEDFDA62287D0D6250FC /* [CP] Embed Pods Frameworks */,
+				0C62C41F1EE2977B19FC57C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843666BB1D82C82E00109A10 /* Build configuration list for PBXNativeTarget "RedTests" */;
 			buildPhases = (
+				15CEF295CF468FC4BEF9D639 /* [CP] Check Pods Manifest.lock */,
 				843666A01D82C82E00109A10 /* Sources */,
 				843666A11D82C82E00109A10 /* Frameworks */,
 				843666A21D82C82E00109A10 /* Resources */,
+				214DEF5795B54448AE6EE410 /* [CP] Embed Pods Frameworks */,
+				777C885114848048EB821FD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843666BE1D82C82E00109A10 /* Build configuration list for PBXNativeTarget "RedUITests" */;
 			buildPhases = (
+				117CF6A7348B477DDA68D55E /* [CP] Check Pods Manifest.lock */,
 				843666AB1D82C82E00109A10 /* Sources */,
 				843666AC1D82C82E00109A10 /* Frameworks */,
 				843666AD1D82C82E00109A10 /* Resources */,
+				0EAC54006A66FE0F0900A230 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +319,7 @@
 		843666801D82C82E00109A10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DQ;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Derrick_Qin;
 				TargetAttributes = {
@@ -259,6 +363,7 @@
 			files = (
 				8436669E1D82C82E00109A10 /* LaunchScreen.storyboard in Resources */,
 				8436669B1D82C82E00109A10 /* Assets.xcassets in Resources */,
+				843666CF1D82CEA000109A10 /* TabBarList.plist in Resources */,
 				843666961D82C82E00109A10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,14 +384,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C62C41F1EE2977B19FC57C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Red/Pods-Red-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EAC54006A66FE0F0900A230 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedUITests/Pods-RedUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		117CF6A7348B477DDA68D55E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		15CEF295CF468FC4BEF9D639 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		214DEF5795B54448AE6EE410 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedTests/Pods-RedTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C77BEDFDA62287D0D6250FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Red/Pods-Red-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725AF18FA64BCB6AB62FABC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		777C885114848048EB821FD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedTests/Pods-RedTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		843666841D82C82E00109A10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843666CD1D82CE6A00109A10 /* DQHomeViewController.m in Sources */,
 				843666901D82C82E00109A10 /* AppDelegate.m in Sources */,
+				843666CA1D82CD5B00109A10 /* DQBaseNavigationController.m in Sources */,
 				8436668D1D82C82E00109A10 /* main.m in Sources */,
+				843666D41D82D31800109A10 /* WaterFallFlowLayout.m in Sources */,
 				843666991D82C82E00109A10 /* Red.xcdatamodeld in Sources */,
+				843666C71D82CD4100109A10 /* DQBaseTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,8 +657,10 @@
 		};
 		843666B91D82C82E00109A10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB33D71758E1D8EACFEBCDE /* Pods-Red.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = Red/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DerrickQin.Red;
@@ -436,8 +670,10 @@
 		};
 		843666BA1D82C82E00109A10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056736252523DDB6AA5F3477 /* Pods-Red.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = Red/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DerrickQin.Red;
@@ -447,6 +683,7 @@
 		};
 		843666BC1D82C82E00109A10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FD4DC19C020877AEF8CE83 /* Pods-RedTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RedTests/Info.plist;
@@ -459,6 +696,7 @@
 		};
 		843666BD1D82C82E00109A10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB8B2A8AC1A37D154F646E6 /* Pods-RedTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RedTests/Info.plist;
@@ -471,6 +709,7 @@
 		};
 		843666BF1D82C82E00109A10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2C0ECF777446A2B2BA4D28 /* Pods-RedUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +721,7 @@
 		};
 		843666C01D82C82E00109A10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD551DF35112E87063441A1 /* Pods-RedUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -510,6 +750,7 @@
 				843666BA1D82C82E00109A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843666BB1D82C82E00109A10 /* Build configuration list for PBXNativeTarget "RedTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +759,7 @@
 				843666BD1D82C82E00109A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843666BE1D82C82E00109A10 /* Build configuration list for PBXNativeTarget "RedUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +768,7 @@
 				843666C01D82C82E00109A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
